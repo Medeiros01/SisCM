@@ -14,6 +14,17 @@
 Auth::routes();
 
 
+//    Rota para o crud de usuários
+//rotas para gestão de usuarios
+Route::get('usuarios', 'UsuarioController@index')->name('usuarios');
+Route::get('usuario/create', 'UsuarioController@form_usuario');
+Route::get('usuario/edita/{id}', 'UsuarioController@fom_edita');
+Route::post('usuario/edita/{id}', 'UsuarioController@update');
+Route::post('usuario/desativa/{id}', 'UsuarioController@desativa');
+Route::post('usuarios', 'UsuarioController@cad_usuario');
+Route::get('usuario/alterasenha/{id}', 'UsuarioController@formularioalterasenha');
+Route::post('usuario/alterasenha/{id}', 'UsuarioController@alterasenha');
+
 
 Route::get('/home', 'ProdutoController@index')->name('home');
 Route::get('/', 'ProdutoController@index')->name('home');

@@ -119,11 +119,7 @@ return [
                     'text' => 'Produtos',
                     'url'  => '/produtos',
                 ],
-                [
-                    'text'    => 'Categorias',
-                     'url'     => '/#',
-                    
-                ],
+                
             ],
         ],
         
@@ -203,45 +199,6 @@ return [
             
         ],
 
-        [
-
-            'header' => 'CADASTROS',
-               'can'         => 'Administrador',
-           
-        ],
-        [
-            'text'        => 'Órgãos',
-            'url'         => 'orgaos/listagem',
-            'icon'        => 'file',
-            'can'         => 'Administrador',
-            
-        ],
-        [
-            'text'        => 'Setores',
-            'url'         => 'setores/listagem',
-            'icon'        => 'file',
-            'can'  => 'Administrador',
-        ],
-        [
-            'text'        => 'Funções',
-            'url'         => 'funcoes',
-            'icon'        => 'file',
-            'can'  => 'Administrador',
-        ],
-        [
-            'text'        => 'Status de Funções',
-            'url'         => 'statusfuncoes',
-            'icon'        => 'file',
-            'can'  => 'Administrador',
-        ],
-        [
-            'text' => 'Cargos',
-            'url'  => 'cargos',
-            'icon' => 'file',
-            'can'         => 'Administrador',
-            
-        ],
-
         
        
         [
@@ -252,64 +209,14 @@ return [
         ],
        
         [
-            'text'    => 'Usuarios',
+            'text'    => 'USUÁRIOS',
             'icon'    => 'user',
-            'url'  => '/usuarios',
-            'can'         => 'Administrador',
-        ],
-        [
-            'text' => 'Gratificações',
-            'url'  => 'gratificacoes/listagem',
-            'icon' => 'money',
+            'url'  => 'usuarios',
             'can'         => 'Administrador',
         ],
         
-        [
 
-            'header' => 'GESTÃO',
-               'can'         => 'Admin',
-           
-        ],
-      
-        [
-            'text' => 'Tipo de Registro',
-            'url'  => 'tiporegistros',
-            'icon' => 'file',
-            'can'         => 'Admin',
-            
-        ],
-        [
-            'text' => 'Tipo de Itens',
-            'url'  => 'tipoitens',
-            'icon' => 'lock',
-            'can'         => 'Admin',
-        ],
-        [
-            'text' => 'Itens',
-            'url'  => 'itens',
-            'icon' => 'file',
-            'can'         => 'Admin',
-        ],
-        [
-            'text'    => 'Usuarios',
-            'icon'    => 'user',
-            'can'         => 'Admin',
-            'submenu' => [
-                
-                [
-                    'text' => 'Perfil',
-                    'url'  => 'roles',
-                    'can'         => 'Admin',
-                ],
-                [
-                    'text' => 'Permissões',
-                    'url'  => 'permissions',
-                    'can'         => 'Admin',
-                ],
-                
-            ],
-        ],
-        
+          
        
         
     ],
