@@ -1,0 +1,81 @@
+
+  /* Table Base */
+
+ 
+    
+  .table {
+    border-bottom: #999999 solid 1px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .table th,
+  .table td {
+    border: #999999 solid 1px;
+    font-size: 12px;
+    text-align: left;
+    
+  }
+ 
+  .table thead th  {
+    font-weight: normal;
+    background-color: #005dab;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+ 
+  
+  .title {
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 10px;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  footer {
+    position: fixed; 
+    bottom: -60px; 
+    left: 0px; 
+    right: 0px;
+    height: 50px; 
+    font-size: 8px;
+
+    /** Extra personal styles **/
+  
+   
+    text-align: center;
+    line-height: 35px;
+}
+
+  .logo-texto{
+    margin-left: 50px; 
+    margin-top: 10px; 
+    font-size: 12px; 
+    height: 60px;
+    
+  }
+  .logo-pdf{
+    margin-right: 12px; 
+    margin-top: 10px;
+    float: left;
+  }
+  .legandatitulo{
+    padding: 8px;
+    background-color: #CDC9C9;
+    color: #000;
+  }
+  .titulocaderneta{
+    border: #000 solid 1px;
+    color: #000;
+    text-align: center;
+
+  }
+  .caixa{
+    border: #000 solid 1px;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+
+  }
